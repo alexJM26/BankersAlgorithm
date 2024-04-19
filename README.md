@@ -19,9 +19,13 @@ Before running the program, store the current state of the system in the followi
 - Seperate all tokens with a single whitespace ' '. 
 
 An example of this is seen below.
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+| Process | Allocation | Max | Available |
+| :---         |     :---:      |     :---:      |          ---: |
+| P0   | 0 1 0 | 7 5 3 | 3 2 2 |
+| P1   | 0 1 0 | 7 5 3 | |
+| P2   | 0 1 0 | 7 5 3 | |
+| P3   | 0 1 0 | 7 5 3 | |
+| P4   | 0 1 0 | 7 5 3 | |
 ```bash
 0 1 0 ; 2 0 0 ; 3 0 2 ; 2 1 1 ; 0 0 2 ;
 -
