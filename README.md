@@ -20,12 +20,12 @@ Before running the program, store the current state of the system in the followi
 
 An example of this is seen below.
 | Process | Allocation | Max | Available |
-| :---         |     :---:      |     :---:      |          ---: |
-| P0   | 0 1 0 | 7 5 3 | 3 2 2 |
-| P1   | 0 1 0 | 7 5 3 | |
-| P2   | 0 1 0 | 7 5 3 | |
-| P3   | 0 1 0 | 7 5 3 | |
-| P4   | 0 1 0 | 7 5 3 | |
+| :--- | :---: | :---: | :---: |
+| P0   | 0  1  0 | 7  5  3 | 3  2  2 |
+| P1   | 2  0  0 | 3  2  2 | 
+| P2   | 3  0  2 | 9  0  2 | 
+| P3   | 2  1  1 | 2  2  2 | 
+| P4   | 0  0  2 | 4  3  3 | 
 ```bash
 0 1 0 ; 2 0 0 ; 3 0 2 ; 2 1 1 ; 0 0 2 ;
 -
