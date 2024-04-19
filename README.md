@@ -1,5 +1,5 @@
 # Banker's Algorithm
-A program that will examine the current state of a system, determine if it is in a safe state or not, and produce a safe sequence if it is safe. 
+A program that will examine the resource-allocation state of a system at a given snapshot in time, determine if it is a safe state or not, and produce a safe sequence (if the current state is safe). 
 
 ## General Information
 
@@ -11,11 +11,11 @@ Further documentation information can be found in this project's wiki.
 
 ## Usage
 
-Before running the program, store the current state of the system in the following format:
+Before running the program, store the resource-allocation state of the system in a text file with the following format:
 
-- Enter your information in the following order: Allocation Matrix, Maximum Matrix, Available Vector.
+- Enter the information in the following order: Allocation Matrix, Maximum Matrix, Available Vector.
 - End each row with a ';'.
-- To signal you have finished typing one of the pieces of information, include a '-'.
+- To signal the end of one of the pieces of information, include a '-'.
 - Seperate all tokens with whitespace. 
 
 An example of this is seen below.
