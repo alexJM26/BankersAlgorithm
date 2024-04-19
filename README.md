@@ -12,6 +12,13 @@ Further documentation information can be found in this project's wiki.
 ## Usage
 
 Before running the program, store the current state of the system in the following format:
+
+- Enter your information in the following order: Allocation Matrix, Maximum Matrix, Available Vector.
+- End each row with a ';'.
+- To signal you have finished typing one of the pieces of information, include a '-'.
+- Seperate all tokens with a single whitespace ' '. 
+
+An example of this is seen below.
 ```bash
 0 1 0 ; 2 0 0 ; 3 0 2 ; 2 1 1 ; 0 0 2 ;
 -
