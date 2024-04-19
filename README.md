@@ -21,6 +21,7 @@ Before running the program, store the current state of the system in the followi
 An example of this is seen below.
 | Process | Allocation | Max | Available |
 | :--- | :---: | :---: | :---: |
+|      | A  B  C | A  B  C | A  B  C |
 | P0   | 0  1  0 | 7  5  3 | 3  2  2 |
 | P1   | 2  0  0 | 3  2  2 | 
 | P2   | 3  0  2 | 9  0  2 | 
