@@ -16,7 +16,7 @@ Before running the program, store the current state of the system in the followi
 - Enter your information in the following order: Allocation Matrix, Maximum Matrix, Available Vector.
 - End each row with a ';'.
 - To signal you have finished typing one of the pieces of information, include a '-'.
-- Seperate all tokens with a single whitespace ' '. 
+- Seperate all tokens with whitespace. 
 
 An example of this is seen below.
 | Process | Allocation | Max | Available |
@@ -45,4 +45,24 @@ To run the program, enter the following command into the terminal.
 ./bankersAlgorithm
 ```
 
-From here, answer the prompts. Ensure to include the file extension of any file names entered. 
+From here, answer the prompts. Ensure to include the file extension of any file names entered.<br> 
+An example execution of the program may look like this.
+```bash
+[user@server Project2]$ ./bankersAlgorithm
+Please enter name of file: assignmentExample.txt
+--------
+The system IS in a safe state!
+The safe sequence: P1 P3 P4 P0 P2 
+--------
+Would you like to check another? [y/n]: y
+Please enter name of file: unsafeExample.txt
+--------
+The system IS NOT in a safe state!
+--------
+Would you like to check another? [y/n]: n
+Exiting the program...
+```
+
+## Environment Information
+This project was run in Red Hat Enterprise Linux 8.
+The programs were compiled with g++ (GCC) version 8.5.0.
