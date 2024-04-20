@@ -37,7 +37,7 @@ An example of this is seen below.
 
 To compile the banker's algorithm program, enter the following command into the terminal.
 ```bash
-g++ bankersAlgorithm.cpp dataStructures.cpp -o bankersAlgorithm
+g++ bankersAlgorithm.cpp state.cpp -o bankersAlgorithm
 ```
 
 To run the program, enter the following command into the terminal.
@@ -48,21 +48,21 @@ To run the program, enter the following command into the terminal.
 From here, answer the prompts. Ensure to include the file extension of any file names entered.<br> 
 An example execution of the program may look like this.
 ```bash
-[user@server Project2]$ ./bankersAlgorithm
-Please enter name of file: assignmentExample.txt
+[user@hornet Project2]$ ./bankersAlgorithm
+Please enter the name of the file: assignmentExample.txt
 --------
 The system IS in a safe state!
 The safe sequence: P1 P3 P4 P0 P2 
 --------
-Would you like to check another? [y/n]: y
-Please enter name of file: unsafeExample.txt
+Would you like to check another state? [y/n]: y
+Please enter the name of the file: unsafeExample.txt
 --------
 The system IS NOT in a safe state!
 --------
-Would you like to check another? [y/n]: n
+Would you like to check another state? [y/n]: n
 Exiting the program...
 ```
 
 ## Environment Information
-This project was run in Red Hat Enterprise Linux 8.
+This project was run in Red Hat Enterprise Linux 8.<br>
 The programs were compiled with g++ (GCC) version 8.5.0.
