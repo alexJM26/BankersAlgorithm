@@ -3,11 +3,11 @@ A program that will examine the resource-allocation state of a system at a given
 
 ## General Information
 
-This project was completed for cs33211 (Operating Systems) at Kent State University on 04/19/24.
+This project was completed for cs33211 (Operating Systems) at Kent State University on 04/23/24.
 
-The program takes a snapshot of the resource-allocation state of a system as input. This input must follow the format described under the "Usage" section. This input file is consumed and its information is used to create the data structures necessary for Banker's Algorithm. These data structures include the Maxmimum Matrix, the Allocation Matrix, the Need Matrix, and the Available vector. The steps of the Safety Algorithm of Banker's Algorithm are then followed in order to inspect these data structures and check if the system is in a safe state.
+The program takes a snapshot of the resource-allocation state of a system as input. This input must follow the format described under the "Usage" section. This input file is consumed and its information is used to create the data structures necessary for Banker's Algorithm. These data structures include the Maxmimum Matrix, the Allocation Matrix, the Need Matrix, and the Available Vector. The steps of the Safety Algorithm of Banker's Algorithm are then followed in order to inspect these data structures and check if the system is in a safe state.
 
-The program provides output upon completion. This output indicates whether the input resource-allocation state is safe. Additionally, if it is safe, the output will provide one possible safe sequence. For any n processes described within the resource-allocation state, they will be output as so withiin the sequence: P0 P1 ... P(n-1) .
+The program provides output upon completion. This output indicates whether the input resource-allocation state is safe. Additionally, if it is safe, the output will provide one possible safe sequence. For any n processes described within the resource-allocation state, they will be output as so withiin the safe sequence: P0 P1 ... P(n-1) .
 
 ## Additional Information
 
