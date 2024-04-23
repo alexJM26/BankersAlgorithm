@@ -1,4 +1,4 @@
-# Banker's Algorithm
+# Banker's Algorithm Model
 A program that will examine the resource-allocation state of a system at a given snapshot in time, determine if it is a safe state or not, and produce a safe sequence (if the current state is safe). 
 
 ## General Information
