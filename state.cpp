@@ -13,7 +13,7 @@ state tableInput(std::string fileName) {
     }
 
     std::string token; // holds current token
-    std::vector<int> currentRow; // hollds current row
+    std::vector<int> currentRow; // holds current row
 
     // get allocation matrix
     while (file >> token && token != "-") {
@@ -63,7 +63,7 @@ bool safetyAlgorithm(state current) {
     int n = current.max.size(), m = current.available.size();
 
     // array for holding the safe sequence
-    int safeSequence[n];
+    std::vector<int> safeSequence(n);
 
     // initalize work and finish vectors
     std::vector<int> work = current.available; 
