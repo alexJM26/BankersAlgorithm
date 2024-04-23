@@ -49,17 +49,17 @@ To run the program, enter the following command into the terminal.
 ./bankersAlgorithm
 ```
 
-From here, answer the prompts. Ensure to include the file extension of any file names entered.<br> 
+From here, answer the prompts. Ensure to include the file extension of any file names entered, along with their path relative to the program if they are not in the same folder.<br> 
 An example execution of the program may look like this.
 ```bash
 [user@hornet Project2]$ ./bankersAlgorithm
-Please enter the name of the file: assignmentExample.txt
+Please enter the name of the file: stateTextFiles/assignmentExample.txt
 --------
 The system IS in a safe state!
 The safe sequence: P1 P3 P4 P0 P2 
 --------
 Would you like to check another state? [y/n]: y
-Please enter the name of the file: unsafeExample.txt
+Please enter the name of the file: stateTextFiles/unsafeExample.txt
 --------
 The system IS NOT in a safe state!
 --------
